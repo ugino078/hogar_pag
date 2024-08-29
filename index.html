@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./javascript/contacto.js"></script>
+</head>
+
+<body>
+    <div class="navegacion">
+        <nav>
+            <!-- navegacion de la pag -->
+            <button class="nav-item">Mis Datos</button>
+            <button class="nav-item">Mis Estudios</button>
+            <button class="nav-item">Mis Experiencias Laborales</button>
+            <button class="nav-item">Formas De Contacto</button>
+             <!-- <a class="nav-item" href="">Mis Datos</a>
+            <a class="nav-item" href="">Mis Estudios</a>
+            <a class="nav-item" href="">Mis Experiencias Laborales</a>
+            <a class="nav-item" href="">Formas De Contacto</a> -->
+        </nav>
+    </div>
+
+    <section>
+        <article>
+
+            <!-- contenido de el sitio -->
+            <h1 style="text-align:center" class="titulosprincipales">Mi Curriculum Vitae</h1>
+
+            <div class="card">
+                <img src="./imagenes/gino.jpg" alt="Gino" style="width:100%">
+                <h2>Fernando Gino Urbani</h2>
+                <p class="title">Maestro Mayor De Obras</p>
+                <p>INSTITUTO: EET Nro 12.</p>
+                <p>EDAD: 44</p>
+                <p>PAÍS: Argentina</p>
+                <p>PROVINCIA: Buenos Aires </p>
+                <p>CIUDAD: San Justo</p>
+
+
+
+
+
+                <div style="margin: 24px 0;">
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </div>
+                <p><button class="nav-item"><a href="#">Contact</a></button></p>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <div class="elemento">
+            <article>
+                <h2 class="titulos_de_elemento">FORMACIÓN</h2>
+                <!-- mis estudios -->
+                <h3>Escuela Secundaria (completo)</h3>
+                <p>Escuela enseñanza técnica 14 ‘Italia’ - Maestro Mayor de Obras</p>
+                <h3>UTN. Regional Ahedo</h3>
+                <p>AutoCAD avanzado 2D y 3D.
+                    Redes y Seguridad Informática</p>
+                <h3>CFL 408 Morón</h3>
+                <p>Programación: HTML, CSS, JavaScript, SQL, Python.</p>
+
+                <h3>HABILIDADES</h3>
+                <ul>
+                    <li>Dibujante Cad 2D y 3D</li>
+                    <li>Capacidad</li>
+                    <li>Diseño de pág. Web</li>
+                    <li>Mantenimiento</li>
+                    <li>Autodidacta</li>
+                    <li>Creatividad</li>
+                </ul>
+
+                <h3>IDIOMAS</h3>
+                <ul>
+                    <li>Inglés - Medio</li>
+                    <li>Italiano - Medio</li>
+                </ul>
+
+
+
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <div class="elemento">
+            <article>
+                <h2 class="titulos_de_elemento">EXPERIENCIA LABORAL</h2>
+                <!-- experiencia laboral -->
+                <h3>Técnico</h3>
+                <h4>Telefónica de Agentina S.A. 2008 - Actualmente</h4>
+                <p>Planificación Despliegue F.O. - Ingeniería PE
+
+                    Implementación tecnológica
+
+
+                    Revisador - Instalador.
+                    Ciudad Evita, Distrito San Justo.
+                    Realización de mantenimiento de red.
+                </p>
+
+                <h3>Técnico</h3>
+                <h4>Blazecom 2001 - 2007</h4>
+                <p>Técnico en Mantenimiento de redes y telefonía.
+                    Capital Federal.
+                    Instalación de Locutorios, Sistemas y redes de Oficinas.
+                </p>
+
+                <h3>Técnico</h3>
+                <h4>Aguas Argentinas 1999 - 2001</h4>
+                <p>Técnico en Mantenimiento.
+                    Ciudadela.
+                    Instalación y mantenimiento de red.
+                </p>
+
+
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <article>
+
+            <!-- formas de contacto -->
+            <form>
+                <fieldset>
+                    <legend>
+                        <h2 >Formulario De Contacto</h2>
+                    </legend>
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Su Nombre.." required="true">
+
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Su Apellido.." required="true">
+
+                    <label for="country">Ciudad</label>
+                    <select id="country" name="country" required="true">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+
+                    <label for="subject">Comentarios</label>
+                    <textarea id="subject" name="subject" placeholder="Deje Su Comentario.."
+                        style="height:200px" required="true"></textarea>
+
+                    <button onclick="enviar()" class="nav-item">Enviar</button>
+
+
+                </fieldset>
+
+            </form>
+        </article>
+    </section>
+
+    <div class="">
+        <footer></footer>
+    </div>
+
+
+</body>
+
+</html>
